@@ -43,4 +43,5 @@ Create a new table within your dataset called `sample_data` and upload the `samp
 In the BigQuery console paste and run the SQL script `normalize_table.sql`.
 
 
+**NOTE:** For script simplicity the source dataset and table names have not been formated. Please maintain the same names for the script to work or update the names appropriately.
 
