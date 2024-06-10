@@ -5,14 +5,14 @@ This repository contains scripts to generate test data, process it using BigQuer
 ## Contents
 
 - `normalize_table.sql`: SQL script requested by task to normalize and pivot the data.
-- `generate_test_data.py`: Python script to generate test data.
+- `random_data_generator.py`: Python script to generate test data.
 - `sample_data.json`: Example of generated test data (can overwrite with script to test).
 - `bigquery_result.csv`: Example of table generated after SQL script is run.
 
 ## Prerequisites
 
 - Python 3.x installed.
-- Access to a Google BigQuery project.
+- Access to a Google BigQuery console.
 
 ## Setup Instructions
 
@@ -26,10 +26,10 @@ This repository contains scripts to generate test data, process it using BigQuer
 
 ### Step 2: Generate Test Data
 
-   Open a terminal and navigate to the directory containing `generate_test_data.py`. Run the script to generate the test data.
+   Open a terminal and navigate to the directory containing `random_data_generator.py`. Run the script to generate the test data.
 
    ```bash
-   python3 generate_test_data.py
+   python3 random_data_generator.py
    ```
 
 ### Step 3: Upload Test Data to BigQuery
